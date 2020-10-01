@@ -9,8 +9,11 @@ class CupTest {
         Cup c = new Cup("Orange Juice", 85);
         assertEquals("Orange Juice", c.getLiquidType());
     }
-
-    void getPercentFull(){
-
+    @Test
+    void getPercentageFull() {
+        Cup c = new Cup("Orange Juice", 85);
+        assertEquals(85, c.getPercentageFull());
     }
+
+
 }

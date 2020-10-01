@@ -12,8 +12,13 @@ public class Cup {
         return liquidType;
     }
 
+    public double getPercentageFull() {
+        return percentFull;
+    }
+
     public void setLiquidType(String liquidType){
         this.liquidType = liquidType;
     }
+
 
 }
