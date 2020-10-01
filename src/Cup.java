@@ -12,7 +12,7 @@ public class Cup {
         return liquidType;
     }
 
-    public double getPercentageFull() {
+    public double getPercentFull() {
         return percentFull;
     }
 
@@ -21,4 +21,7 @@ public class Cup {
     }
 
 
+    public void setPercentFull(int percentFull) {
+        this.percentFull = percentFull;
+    }
 }
