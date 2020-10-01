@@ -20,8 +20,7 @@ public class Cup {
         this.liquidType = liquidType;
     }
 
-
-    public void setPercentFull(int percentFull) {
+    public void setPercentFull(double percentFull) {
         this.percentFull = percentFull;
     }
 }

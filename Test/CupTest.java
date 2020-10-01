@@ -12,7 +12,7 @@ class CupTest {
     @Test
     void getPercentageFull() {
         Cup c = new Cup("Orange Juice", 85.5);
-        assertEquals(85.5, c.getPercentFull());
+        assertEquals(85.5, c.getPercentFull(), 0.001);
     }
 
     @Test
@@ -25,7 +25,7 @@ class CupTest {
     @Test
     void setPercentFull() {
         Cup c = new Cup("Orange Juice", 85.5);
-        c.setPercentFull(90);
-        assertEquals(90, c.getPercentFull());
+        c.setPercentFull(90.1);
+        assertEquals(90.1, c.getPercentFull(), 0.001);
     }
 }
