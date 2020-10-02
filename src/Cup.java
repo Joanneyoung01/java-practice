@@ -23,4 +23,5 @@ public class Cup {
     public void setPercentFull(double percentFull) {
         this.percentFull = percentFull;
     }
+
 }
